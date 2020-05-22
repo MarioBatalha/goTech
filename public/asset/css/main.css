@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family:  'poppins';
+    color: #000;
+}
+
+body{
+    background-color: #fff;
+}
+
+.main-body{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    background: url('../img/perfil.png') no-repeat center;
+    background-position-y: 450px;
+    background-size: 40%;
+}
+
+section{
+    background: transparent url('../img/background.png') no-repeat center;
+    background-size: 70%;
+    background-position-y: 150px;
+}
+
+
+header{
+    z-index: 999px;
+
+}
+
+#contact{
+    color: #fff;
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    border: 1px solid rgba(255, 255, 255, 0); 
+}
+#menu{
+    list-style: none;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: -60px;
+}
+
+#navbar-menu{
+    margin-left: 90px;
+}
+
+#navbar-menu li{
+    color: #d1c4f8;
+    font-size: 13px;
+}
+
+li{
+    padding: 13px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #d1c4f8
+}
+
+.link-btn{
+    text-decoration: none;
+    color: #fff;
+}
+
+#link:hover{
+    color: #8E2DE2;
+}
+
+.link-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 100px;
+    animation:main 5s ease-out both;
+}
+@keyframes main{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
+
+h1{
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    color: #8E2DE2;
+    animation-name: example;
+    animation-duration: 4s;
+    transition: 5s;
+}
+
+@keyframes example {
+  from {bcolor: #8E2DE2;}
+  to{color: #FF8FE2}
+}
+
+h3{
+    font-weight: normal;
+    font-size: 46px;
+    text-align: center;
+}
+
+p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-btn{
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    padding: 8px;
+    font-size: 13px;
+    color: #fff;
+    margin: 10px;
+    width: 130px;
+    border-radius: 5px;
+    
+}
+
+.works{
+    background: #6362d7; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #fff;
+    text-decoration: none;
+}
+
+.works:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.know{
+    color:  #8E2DE2;
+    border: 1px solid #8E2DE2;
+}
+
+.link-btn2{
+    text-decoration: none;
+    color: #8E2DE2;
+}
+
+.link-btn2:hover{
+    text-decoration: none;
+    color: #8E2DE2;
+}
+
+.contact-form{
+    width: 700px;
+    margin: 350px;
+    margin-top: 100px;
+}
+
+.contact-form input {
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+  }
+
+.contact-form input[type=text]:focus {
+    border: none;
+    border-bottom: 1px solid #fff;
+  }  
+
+.contact-form select{
+    border: none;
+    border-bottom: 1px solid #cccccc;   
+}   
+    
+strong{
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+.contact-form__send{
+    display:inline-flex;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 50px;
+    background-color: #fff;
+}
+
+.contact-form__send:active{
+    display:inline-flex;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 50px;
+    background-color: #f2f2f2;
+}
+
+
+.contact-form__works{
+    background: #6362d7; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    margin: 60px;
+}
+
+footer{
+    background: transparent url('../img/footer.png') no-repeat;
+    width: 100%;
+    height: 35px;
+    opacity: .7;
+    margin-top: 9.2%;
+}
+
+
